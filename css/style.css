@@ -358,7 +358,7 @@ textarea {
   height: 5px;
   background: var(--bg-input);
   border-radius: 3px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .progress-fill {
@@ -374,7 +374,7 @@ textarea {
   border: 1px solid var(--border);
   border-radius: 10px;
   margin-bottom: 14px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .meal-card-header {
@@ -485,7 +485,7 @@ textarea {
   background: var(--bg-card);
   border: 1px solid var(--accent);
   border-radius: 6px;
-  z-index: 100;
+  z-index: 9999;
   display: none;
   max-height: 260px;
   overflow-y: auto;
